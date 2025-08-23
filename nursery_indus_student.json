@@ -1,0 +1,84 @@
+{
+  "school": {
+    "name": "Bethany Convent School",
+    "address": "DM-49 Indus Town, Bhopal, M.P, 462026",
+    "contact": {
+      "phone": "9039677482",
+      "email": "samuel.james36@gmail.com"
+    },
+    "codes": {
+      "Scholar": "BCS/1404",
+      "udise": "23320214508"
+    },
+    "session": "2025-2027",
+    "signature": "chairman_signature.jpg",
+    "logo": "logo-indus-town.png",
+    "building": "school.jpg"
+  },
+  "id_card": {
+    "signature": "chairman_signature.jpg"
+  },
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Sheetal Gangale",
+      "designation": "Teacher",
+      "contact": "9644968068",
+      "address": "Bethany Convent School DM-49 Indus Town Bhopal",
+      "photo": "Sheetal gangale.jpg",
+      "img": "sheetal_gangale.jpg",
+      "related_persons": [
+        {
+          "relation": "husband",
+          "name": "Sawan Gangale"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Valsala C.R",
+      "designation": "Teacher",
+      "contact": "8871166635",
+      "address": "Bethany Convent School DM-49 Indus Town Bhopal",
+      "photo": "Valsala C.R.jpg",
+      "img": "Valsala C.R.jpg",
+      "related_persons": [
+        {
+          "relation": "husband",
+          "name": "Rajendran N.R"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Neelam Pal",
+      "designation": "Teacher",
+      "contact": "8770141664",
+      "address": "Bethany Convent School Indus Town Bhopal",
+      "photo": "Neelam pal .jpg",
+      "img": "Neelam Pal.jpg",
+      "related_persons": [
+        {
+          "relation": "husband",
+          "name": "Ashok Pal"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Divya Rathore",
+      "designation": "Teacher",
+      "contact": "8817596778",
+      "address": "Bethany Convent School DM-49 Indus Town Bhopal",
+      "photo": "Divya rathore.jpg",
+      "img": "Divya rathore.jpg",
+      "related_persons": [
+        {
+          "relation": "husband",
+          "name": "Mayank Singh"
+        }
+      ]
+    }
+  ],
+  "students": []
+}

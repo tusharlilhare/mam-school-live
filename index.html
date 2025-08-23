@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School ID Card System</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- <header>
+            <h1><i class="fas fa-id-card"></i> School ID Card System</h1>
+            <nav>
+                <h1>
+                    <li><a href="/index.html"><i class="fas fa-home"></i> Home</a></li>
+                </h1>
+            </nav>
+            <p class="subtitle">Generate, Print, and Verify Student & Teacher ID Cards</p>
+        </header> -->
+        
+        <div class="tabs">
+            <!-- <button class="tab-btn active" data-tab="student-cards"></button> -->
+            <button class="tab-btn" data-tab="teacher-cards">Teacher ID Cards</button>
+            <button class="tab-btn" data-tab="verification">QR Verification</button>
+        </div>
+        
+        <div class="tab-content active" id="student-cards">
+         
+            
+            <div class="card-grid" id="studentCardsContainer">
+                <!-- Student ID Cards will be generated here by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="tab-content" id="teacher-cards">
+         
+            
+            <div class="card-grid" id="teacherCardsContainer">
+                <!-- Teacher ID Cards will be generated here by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="tab-content" id="verification">
+            <div class="verification-section">
+                <div class="verification-content">
+                    <div class="verification-header">
+                        <h2 class="verification-title">ID Card Verification</h2>
+                        <p class="verification-subtitle">Scan QR Code to View Information</p>
+                    </div>
+                    
+                    <div class="verification-grid">
+                        <div class="verification-details" id="verificationDetails">
+                            <!-- Verification details will appear here -->
+                        </div>
+                    </div>
+                    
+                    <div class="verification-status">
+                        <p class="status-text" id="statusText">Scan an ID card QR code to verify information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
