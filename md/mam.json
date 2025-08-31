@@ -1,0 +1,128 @@
+{
+  "school": {
+    "name": "Bethany Convent School",
+    "address": "DM-49 Indus Town, Bhopal, M.P, 462026",
+    "contact": {
+      "phone": "9039677482",
+      "email": "samuel.james36@gmail.com"
+    },
+    "codes": {
+      "Scholar": "BCS/1404",
+      "udise": "23320214508"
+    },
+    "session": "2025-2027",
+    "signature": "chairman_signature.jpg",
+    "logo": "logo-indus-town.png",
+    "building": "school.jpg"
+  },
+  "id_card": {
+    "signature": "chairman_signature.jpg"
+  },"teachers": [
+  {
+    "id": "1",
+    "name": "Sheetal Gangale",
+    "designation": "Teacher",
+    "contact": "9644968068",
+    "address": "Bethany Convent School DM-49 Indus Town Bhopal",
+    "photo": "Sheetal gangale.jpg",
+    "img": "sheetal_gangale.jpg",
+    "related_persons": [
+      {
+        "relation": "husband",
+        "name": "Sawan Gangale"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Kashee Lodhi",
+    "designation": "Teacher",
+    "contact": "9399780337",
+    "address": "Ward number 24 Gajju Pipliya, Mandideep",
+    "photo": "kashee_lodhi.jpg",
+    "img": "Kashee.png",
+    "related_persons": [
+      {
+        "relation": "husband",
+        "name": "Dilip Sing"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Rani Kumari",
+    "designation": "Teacher",
+    "contact": "7225013762",
+    "address": "Mandideep, Gajju Pipaliya",
+    "photo": "rani_kumari.jpg",
+    "img": "Rani.png",
+    "related_persons": [
+      {
+        "relation": "father",
+        "name": "Karan Singh"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Sita Singh",
+    "designation": "Teacher",
+    "contact": "7692096848",
+    "address": "C-40 Police Colony",
+    "photo": "sita_singh.jpg",
+    "img": "Sita.png",
+    "related_persons": [
+      {
+        "relation": "husband",
+        "name": "Krishna Pal Singh"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Vidhya Lovanshi",
+    "designation": "Teacher",
+    "contact": "9340099489",
+    "address": "Gajju Pipaliya, Mandideep, Bhopal",
+    "photo": "vidhya_lovanshi.jpg",
+    "img": "vidhya.png",
+    "related_persons": [
+      {
+        "relation": "husband",
+        "name": "Shekhar Lovanshi"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Reeta Mishra",
+    "designation": "Teacher",
+    "contact": "9424474794",
+    "address": "G-1 Deepnagar Ward no. 1, Mandideep",
+    "photo": "reeta_mishra.jpg",
+    "img": "Reeta mishra.png",
+    "related_persons": [
+      {
+        "relation": "husband",
+        "name": "Atul Kumar Mishra"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Aanchal Puri",
+    "designation": "Teacher",
+    "contact": "8602838697",
+    "address": "Mandideep, Gajju Pipaliya",
+    "photo": "aanchal_puri.jpg",
+    "img": "Anchal.png",
+    "related_persons": [
+      {
+        "relation": "father",
+        "name": "Mahesh Puri"
+      }
+    ]
+  }
+],
+  "students": []
+}
