@@ -98,10 +98,7 @@ function createIDCard(person, type) {
             <div class="school-details">
                 <p class="school-address">${person.school.address}</p>
                 <p class="school-number">Phone: ${person.school.contact.phone}</p>
-                <p class="school-session">
-                    <span class="session-label">Session:</span>
-                    <span class="session-value">${person.school.session}</span>
-                </p>
+              
             </div>
         </header>
         <section class="body-section">
@@ -207,7 +204,7 @@ function showVerification(person) {
     let personalDetailsHTML = '';
     if (person.type === "student") {
         personalDetailsHTML = `
-            <p><strong>Class:</strong> ${person.class}</p>
+          
             <p><strong>Father's Name:</strong> ${person.father || 'N/A'}</p>
             <p><strong>Date of Birth:</strong> ${person.dob}</p>
         `;
@@ -237,8 +234,8 @@ function showVerification(person) {
                 <h3><i class="fas fa-school"></i> School Information</h3>
                 <p><strong>School Name:</strong> ${person.school.name}</p>
                 <p><strong>Address:</strong> ${person.school.address}</p>
-                <p><strong>Session:</strong> ${person.school.session}</p>
-                <p><strong>${person.type === 'student' ? 'Scholar' : 'Staff'} Code:</strong> ${person.school.codes?.Scholar || 'N/A'}</p>
+              
+
                 <p><strong>Dise Code:</strong> ${person.school.codes?.udise || 'N/A'}</p>
             </div>
             
@@ -250,7 +247,7 @@ function showVerification(person) {
             
             <div class="detail-card">
                 <h3><i class="fas fa-calendar-check"></i> Validity</h3>
-                <p><strong>Valid Through:</strong> 2027</p>
+              
                 <p><strong>Status:</strong> <span class="status-active">Active</span></p>
             </div>
         </div>

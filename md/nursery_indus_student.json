@@ -1,17 +1,20 @@
 
+
+
+ 
 {
   "school": {
     "name": "Bethany Convent School",
-    "address": "DM-49 Indus Town, Bhopal, M.P, 462026",
+    "address": " Sheetal City, Mandideep, MP-462046",
     "contact": {
       "phone": "9039677482",
       "email": "samuel.james36@gmail.com"
     },
     "codes": {
-      "Scholar": "BCS/1404",
+      
       "udise": "23320214508"
     },
-    "session": "2025-2027",
+   
     "signature": "chairman_signature.jpg",
     "logo": "logo-indus-town.png",
     "building": "school.jpg"
